@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ปลูกต้นไม้ช่วยชาติ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- สร้างเมนู -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">ปลูกต้นไม้ช่วยชาติ BY ME</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">วิธีการ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">ติดต่อเรา</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- การสร้าง Slider -->
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ขอเชิญชวนมาปลูกต้นไม้กัน</h1>
+                            <p>อยากเชิญชวนให้ทุกคนที่สนใจมาปลูกต้นไม้กันนะคะ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2 ">
+                   <div class="container">
+                       <div class="carousel-caption d-none d-sm-block">
+                           <h1 class="display-3">ปลูกต้นไม้ช่วยชาติ</h1>
+                           <p>ชาติที่แล้วมีต้นไม้ ชาตินี้มีต้นไม้ ชาติหน้าก็มีต้นไม้ ทุกๆที่ล้วนแต่มีต้นไม้</p>
+                       </div>
+                   </div>
+                </div>
+                <div class="carousel-item carousel-image-3 ">
+                   <div class="container">
+                       <div class="carousel-caption d-none d-sm-block">
+                           <h1 class="display-3">ปลูกต้นไม้กันเถอะ!!</h1>
+                           <p>ต้นไม้มีประโยชน์มากมายต่อสิ่งแวดล้อมและสังคมของเรา สิ่งเหล่านี้มีความสำคัญต่อการรักษาสมดุลของธรรมชาติ ปรับปรุงคุณภาพอากาศ ให้ร่มเงา และเพิ่มความสวยงามให้กับสิ่งแวดล้อม ต้นไม้ยังส่งผลดีต่อสุขภาพกายและสุขภาพจิตของเราอีกด้วย เนื่องจากต้นไม้สามารถลดความเครียดและทำให้อารมณ์ดีขึ้นได้ </p>
+                       </div>
+                   </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                   <span class="carousel-control-next-icon"></span>
+               </button>
+            </div>
+        </div>
+   </section>
+</div>
+<!-- Service Section -->
+<section id="service" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center mb-4">
+                <i class="fas fa-tree fa-3x mb-2"></i>
+                <a href="plant.html" style="font-size: 25px" class="nav-link">วิธีปลูกต้นไม้</a>
+                <p>เตรียมต้นไม้ให้พร้อม
+                    – ลดปุ๋ย ด้วยสภาพแสงในบ้านที่น้อยกว่าด้านนอก หากใส่ปุ๋ยเยอะเกินไป ทำให้ต้นไม้ไม่แข็งแรง
+                    – ลดการให้น้ำ พยายามรักษาให้ดินมีความชื้นปานกลางก็เพียงพอแล้ว
+                    – ลดแสงสว่าง วางต้นไม้ให้อยู่ในที่มีแสงส่องถึงประมาณ 50 % เป็นเวลา 1-2 อาทิตย์ แล้วค่อยๆ นำไปวางในสภาพแสงน้อยประมาณ 20 % ในอีก 2-3 อาทิตย์ถัดมา จากนั้นตรวจดูโรค แมลง ทำความสะอาดใบ แล้วจึงนำไปวางในตำแหน่งที่ต้องการ</p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <i class="fas fa-hand-holding-seedling fa-3x mb-2"></i>
+                <a href="treat.html" style="font-size: 25px" class="nav-link">การรักษาต้นไม้</a>
+                <p>หลังจากได้ปลูกต้นไม้แล้วผู้ปลูกควรคำนึงถึงอันตรายที่อาจจะเกิดกับต้นไม้ในระยะเริ่มแรกที่มีขนาด
+                    เล็กยังตั้งตัวไม่ได้ เช่น อันตรายจากสัตว์เลี้ยง ยานพาหนะต่าง ๆ หากปลูกจำนวนน้อยอาจทำคอกป้องกัน
+                    หรืออาจทำรั้วกั้นเป็นแนวไว้ได้ สำหรับต้นไม้บางชนิดที่ต้องการความเอาใจใส่มากตั้งตัวได้ยากควรจะมีการ
+                    บังแดดให้ในระยะที่ตั้งตัวไม่ได้ อย่างไรก็ตามการปลูกต้นไม้ให้สามารถเจริญเติบโตได้ดีจำเป็นต้องได้รับการเอาใจใส่ดูแลบำรุงรักษาที่ดีจากผู้ปลูกมากพอสมควร </p>
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <i class="fa fa-globe fa-3x mb-2"></i>
+                <a href="reduce.html" style="font-size: 25px" class="nav-link">การลดโลกร้อน</a>
+                <p>-ร่วมกันใช้ก๊าซธรรมชาติแทนถ่านหินและน้ ามันในกระบวนการผลิตและการขนส่ง ต่างๆเพื่อลดปริมาณ
+                    การปล่อยออกก๊าซคาร์บอนไดออกไซด์ให้น้อยลง
+                    -ใช้พลังงานทดแทน เช่น จากแสงอาทิตย์ ลม ชีวมวล
+                    (สารอินทรีย์ที่ได้จากพืชและสัตว์)
+                    -รักษาป่าที่มีอยู่ให้คงอยู่ต่อไป ฟื้นฟูสภาพป่าที่เสื่อมโทรม
+                    ปลูกป่าเพิ่มเติม ศึกษาและปรับปรุงวิธีการใช้ปุ๋ยให้เหมาะสมกับชนิดของพืช
+                    -ใช้ไฟฟ้าอย่างมีประสิทธิภาพทั้งในภาคธุรกิจ อุตสาหกรรมและครัวเรือน</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about -->
+<section id="about" class="p-5">
+    <div class="dark-overlay1">
+        <div class="row">
+            <div class="col">
+                <div class="container pt-5">
+                    <h1>เกี่ยวกับเรา</h1>
+                    <p>เรานั้นชอบปลูกต้นไม้ที่สวยงามมมม</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- gallary -->
+<section id="gallary" class="p-5">
+    <div class="container">
+        <h1 class="text-center">ต้นไม้ของเรา</h1>
+        <p class="text-center">นี่คือต้นไม้ที่เราปลูก ต้นไม้แต่ละที่ย่อมมีความแตกต่างกัน เราปลูกจากต้นเล็กที่เป็นต้นกล้า จนมันสูงใหญ่ ทำให้โลกนี้น่าอยู่ยิ่งขึ้น</p>
+        <!-- Image -->
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2020/05/31/04/36/investment-5241253_1280.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2022/12/07/22/41/nature-7642237_1280.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2022/04/04/07/58/seedlings-7110591_1280.jpg" class="img-fluid">
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2016/12/11/08/21/planting-1898946_1280.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="https://media.istockphoto.com/id/1409888263/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%8A%E0%B8%B2%E0%B8%A2%E0%B8%84%E0%B8%99%E0%B8%AB%E0%B8%99%E0%B8%B6%E0%B9%88%E0%B8%87%E0%B8%81%E0%B9%8D%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%87%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%A1%E0%B8%B1%E0%B8%99%E0%B8%81%E0%B9%87%E0%B9%80%E0%B8%95%E0%B8%B4%E0%B8%9A%E0%B9%82%E0%B8%95-%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%8B%E0%B8%B4%E0%B9%80%E0%B8%88%E0%B8%99%E0%B9%83%E0%B8%99%E0%B8%AD%E0%B8%B2%E0%B8%81%E0%B8%B2%E0%B8%A8-%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B9%82%E0%B8%A5%E0%B8%81-%E0%B8%8A%E0%B9%88%E0%B8%A7%E0%B8%A2%E0%B8%8A%E0%B8%B5%E0%B8%A7%E0%B8%B4%E0%B8%95%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B8%9B%E0%B8%A5%E0%B8%B9%E0%B8%81.webp?b=1&s=612x612&w=0&k=20&c=KcTtAMSHLDEx85BspwOQdHaL3c5EFwJunWhvhlMZpbQ=" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="https://media.istockphoto.com/id/1485451641/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B9%8D%E0%B8%B2%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B9%80%E0%B8%9B%E0%B9%87%E0%B8%99%E0%B8%97%E0%B8%B5%E0%B8%A1%E0%B8%AA%E0%B8%B4%E0%B9%88%E0%B8%87%E0%B9%81%E0%B8%A7%E0%B8%94%E0%B8%A5%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%82%E0%B8%A3%E0%B8%87%E0%B8%87%E0%B8%B2%E0%B8%99%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%82%E0%B8%AD%E0%B8%87%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B8%98%E0%B8%B8%E0%B8%A3%E0%B8%81%E0%B8%B4%E0%B8%88%E0%B8%88%E0%B8%B2%E0%B8%81%E0%B8%A1%E0%B8%B8%E0%B8%A1%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%8A%E0%B8%B1%E0%B9%89%E0%B8%99%E0%B8%99%E0%B9%8D%E0%B8%B2%E0%B9%80%E0%B8%9E%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%84%E0%B8%A7%E0%B8%B2%E0%B8%A1%E0%B8%A2%E0%B8%B1%E0%B9%88%E0%B8%87%E0%B8%A2.webp?b=1&s=612x612&w=0&k=20&c=Hk72oaRL9d0dLdLn3AN57mzpItNGu24vFodawmRQLj4=" class="img-fluid">
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2019/08/09/02/20/seedling-4394118_1280.jpg" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="https://media.istockphoto.com/id/1317323736/th/%E0%B8%A3%E0%B8%B9%E0%B8%9B%E0%B8%96%E0%B9%88%E0%B8%B2%E0%B8%A2/%E0%B8%A1%E0%B8%B8%E0%B8%A1%E0%B8%A1%E0%B8%AD%E0%B8%87%E0%B8%82%E0%B8%B6%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%9B%E0%B8%9A%E0%B8%99%E0%B8%97%E0%B9%89%E0%B8%AD%E0%B8%87%E0%B8%9F%E0%B9%89%E0%B8%B2%E0%B8%97%E0%B8%B4%E0%B8%A8%E0%B8%97%E0%B8%B2%E0%B8%87%E0%B8%95%E0%B9%89%E0%B8%99%E0%B9%84%E0%B8%A1%E0%B9%89.webp?b=1&s=612x612&w=0&k=20&c=i2q9_YFHKQ4OMS4UFs8-SV2cBuMI2UprRYVcm1ZQG7s=" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="https://cdn.pixabay.com/photo/2016/03/27/19/49/bamboo-1283976_1280.jpg" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="text-center p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>ขอขอบคุณ ที่เข้ามาเยี่ยมชมเว็บไซต์ของเรา</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">ติดต่อเรา</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label>อีเมล</label>
+                        <input type="email" placeholder="ป้อนอีเมลของคุณ" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>เรื่อง</label>
+                        <input type="text" placeholder="เสนอเรื่องของคุณ" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label>รายละเอียด</label>
+                        <textarea id="" cols="30" rows="10" class="form-control"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                <button class="btn btn-success">ส่งข้อมูล</button>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

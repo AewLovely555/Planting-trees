@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ปลูกต้นไม้ช่วยชาติ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- สร้างเมนู -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">ปลูกต้นไม้ช่วยชาติ BY ME</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar1" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">วิธีการ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">ติดต่อเรา</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- การสร้าง Slider -->
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ขอเชิญชวนมาปลูกต้นไม้กัน</h1>
+                            <p>อยากเชิญชวนให้ทุกคนที่สนใจมาปลูกต้นไม้กันนะคะ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ปลูกต้นไม้ช่วยชาติ</h1>
+                            <p>ชาติที่แล้วมีต้นไม้ ชาตินี้มีต้นไม้ ชาติหน้าก็มีต้นไม้ ทุกๆที่ล้วนแต่มีต้นไม้</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3 ">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">ปลูกต้นไม้กันเถอะ!!</h1>
+                            <p>ต้นไม้มีประโยชน์มากมายต่อสิ่งแวดล้อมและสังคมของเรา
+                                สิ่งเหล่านี้มีความสำคัญต่อการรักษาสมดุลของธรรมชาติ ปรับปรุงคุณภาพอากาศ ให้ร่มเงา
+                                และเพิ่มความสวยงามให้กับสิ่งแวดล้อม
+                                ต้นไม้ยังส่งผลดีต่อสุขภาพกายและสุขภาพจิตของเราอีกด้วย
+                                เนื่องจากต้นไม้สามารถลดความเครียดและทำให้อารมณ์ดีขึ้นได้ </p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    </div>
+    <!-- Service Section -->
+    <section id="about" class="py-6">
+        <div class="dark-overlay2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-15 mb-15"><br><br><br><br>
+                        <i class="fas fa-tree fa-3x mb-2"></i>
+                        <h3>วิธีปลูกต้นไม้</h3>
+                        <p>1. การเตรียมพื้นที่ปลูก
+                            การเตรียมดินเป็นเรื่องสำคัญอย่างยิ่งของการปลูกต้นไม้ และจะให้ได้ผลดีจะต้องมีการเตรียมการ
+                            ล่วงหน้าพอสมควร ปรับระดับพื้นที่ให้ได้ตามต้องการเสียก่อน
+                            และเพื่อความสวยงามเป็นระเบียบเรียบร้อย
+                            ผู้ปลูกควรได้กำหนดแผนผังการปลูกต้นไม้ไว้ก่อน</p>
+                        <p>2. จัดหาอุปกรณ์และเตรียมวัสดุสำหรับใช้ปลูกต้นไม้
+                            อุปกรณ์ เครื่องมือ เครื่องใช้ในการปลูกต้นไม้ ควรจัดหาและเตรียมให้พร้อมเพื่อ
+                            ความสะดวกใน การปลูกต้นไม้ มีจอบ เสียม พลั่วตักดิน บุ้งกี๋ ตลอดจนยานพาหนะ
+                            ลำเลียงขนส่งกล้าไม้ไปยังจุดที่เตรียมหลุมปลูก
+                            หน้าดินผสมสำหรับกลบหลุมปลูก ปุ๋ยคอก ปุ๋ยหมัก สำหรับรองก้นหลุม ตลอดจนสาร
+                            อุ้มน้ำ(ถ้ามี) และใช้ในกรณีปลูกก่อนหรือหลังฤดูฝน
+                            หลักค้ำยัน ยึดต้นไม้ กันลมพัดโยกและช่วยในการทรงตัวของต้นไม้ให้ตั้งตรง เชือก
+                            สำหรับผูกยึดต้นไม้กับหลัก</p>
+                        <p>3. การปลูก ต้นไม้ที่นำมาปลูกส่วนใหญ่มักจะบรรจุในถุงพลาสติกให้ใช้มีดกรีดถุงออก ควรระวังคือ
+                            อย่าให้รากของต้นไม้ได้รับความกระทบกระเทือนมากนัก
+                            เสร็จแล้ววางต้นไม้ลงในหลุมที่ขุดให้ระดับรอยต่อระหว่างลำต้นกับรากอยู่เสมอกับระดับขอบหลุม
+                            แล้วกลบหลุมด้วยดินผสมที่เตรียมไว้สำหรับปลูกหรือใช้ดินที่ขุดขึ้นจากหลุมที่เป็นดินร่วนปนทราย
+                            หรือดินที่มีความร่วนซุยดี อย่าใช้ดินเหนียวที่แน่นหรือดินที่มีกรวดหินมาก ๆ กลบหลุม
+                            เพราะจะเป็นปัญหาทำให้รากต้นไม้เจริญเติบโตได้ไม่ดี
+                            เมื่อกลบหลุมเสร็จแล้วใช้เท้าเหยียบดินให้แน่นพอประมาณ
+                            นำเศษใบไม้หญ้าหรือฟางมาคลุมรอบโคนต้นเพื่อรักษาความชื้นและป้องกันการกัดเซาะของน้ำในขณะรดน้ำต้นไม้
+                            หาไม้หลักซึ่งมีความสูงมากกว่าต้นไม้พอประมาณมาปักข้าง ๆ ผูกเชือกยึดกับต้นไม้อย่างหลวม ๆ
+                            เพื่อช่วยในการทรงตัวของต้นไม้และป้องกันลมพัดโยก
+                            เมื่อปลูกเสร็จรดน้ำให้ชุ่มและถ้าเป็นไปได้ควรรดน้ำวันละครั้ง จนต้นไม้ตั้งตัวได้
+                            กรณีที่ปลูกเป็นพื้นที่มากๆ ควรปลูกในช่วงฤดูฝน ขณะฝนตกหรือหลังฝนตกใหม่ ๆ
+                            เพื่อประหยัดค่าใช้จ่ายในการรดน้ำต้นไม้
+                            ภายหลังการปลูกต้นไม้โดยปกติควรรดน้ำติดต่อกันทุกวันในเวลาเย็นอย่างน้อยวันละ 1 ครั้ง ตลอด 1
+                            สัปดาห์ การรดน้ำควรรดน้ำให้ชุ่ม ถ้าต้องการทราบว่าได้รดน้ำเพียงพอแล้วหรือไม่
+                            ให้ทดลองขุดดินดูว่าน้ำซึมลง
+                            ไปถึงบริเวณรากต้นไม้หรือยัง ถ้ารดน้ำน้อยไปน้ำจะซึมลงไปไม่ถึงบริเวณรากต้นไม้
+                            การพรวนดินใส่ปุ๋ยและการกำจัดวัชพืช วัชพืชเป็นตัวการที่ทำให้ต้นไม้เจริญเติบโตช้า
+                            ควรมีการกำจัดวัชพืชโดยการถากถาง และพรวนดินรอบโคนต้นไม้ในรัศมี 1 เมตร ปีละ 2 ครั้ง
+                            ในขณะพรวนดินถ้ามีปุ๋ยวิทยาศาสตร์จะโรยรอบ ๆ โคนต้นประมาณ 1-2 ช้อนโต๊ะ
+                            แล้วรดน้ำหรือใส่ปุ๋ยคอกเพิ่มเติมก็ได้</p><br><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ติดต่อเรา</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>อีเมล</label>
+                            <input type="email" placeholder="ป้อนอีเมลของคุณ" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>เรื่อง</label>
+                            <input type="text" placeholder="เสนอเรื่องของคุณ" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>รายละเอียด</label>
+                            <textarea id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                    <button class="btn btn-success">ส่งข้อมูล</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
